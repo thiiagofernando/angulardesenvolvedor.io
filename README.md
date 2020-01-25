@@ -13,7 +13,7 @@
 ## Instalação do Nodejs
 OS X :
 
-Instale o Homebrew abre o terminal e digite:
+Instale o Homebrew, abra o terminal e digite:
 ```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
@@ -55,7 +55,7 @@ choco install nodejs
 npm install -g @angular/cli
 ```
 
-## Instalacação do JSON Server
+## Instalação do JSON Server
 ```sh
 npm install -g json-server
 ```
