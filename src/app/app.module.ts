@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {RouterModule} from '@angular/router';
 import {APP_BASE_HREF} from '@angular/common';
-import {FormsModule} from '@angular/forms';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {registerLocaleData} from '@angular/common';
 import localePt from '@angular/common/locales/pt';
@@ -17,6 +17,7 @@ import { ContatoComponent } from './institucional/contato/contato.component';
 import { rootRouterConfig } from './app.routes';
 import { ProdutoService } from './produtos/produtos.services';
 import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.component';
+import { CadastrosComponent } from './demos/reactiveforms/cadastros/cadastros.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +27,13 @@ import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.co
     FooterComponent,
     SobreComponent,
     ContatoComponent,
-    ListaProdutoComponent
+    ListaProdutoComponent,
+    CadastrosComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
     [RouterModule.forRoot(rootRouterConfig,{useHash:false})]
   ],
