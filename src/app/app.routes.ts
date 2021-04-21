@@ -3,6 +3,7 @@ import { HomeComponent } from './navegacao/home/home.component';
 import { ContatoComponent } from './institucional/contato/contato.component';
 import { SobreComponent } from './institucional/sobre/sobre.component';
 import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.component';
+import { CadastrosComponent } from './demos/reactiveforms/cadastros/cadastros.component';
 
 export const rootRouterConfig: Routes = [
     {
@@ -29,6 +30,9 @@ export const rootRouterConfig: Routes = [
     { 
         path: 'produto-detalhe/:id', 
         component:ListaProdutoComponent 
+    },{
+        path:'cadastro',
+        component:CadastrosComponent
     }
 
 ];
