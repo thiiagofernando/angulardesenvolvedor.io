@@ -21,8 +21,9 @@
     "@angular/router": "~8.2.14",
     "datadog-metrics": "^0.8.1",
     "module-name": "0.0.1-security",
-    "rxjs": "~6.5.4",
+    "rxjs": "~6.6.7",
     "tslib": "^1.10.0",
+    "yarn": "^1.22.10",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
